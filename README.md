@@ -1,0 +1,3 @@
+This repository demonstrates a common, yet subtle, bug in VBScript related to comparing strings with empty strings.  The issue arises from VBScript's implicit type conversion and how it handles comparisons involving empty strings, Null values, and Empty variants.
+
+The `bug.vbs` file shows the faulty code. The `bugSolution.vbs` file presents a corrected version using explicit type checking to handle these scenarios correctly.  This example highlights the importance of carefully handling data types when comparing values in VBScript to avoid unexpected results and improve code robustness.
